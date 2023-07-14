@@ -1,0 +1,86 @@
+@media (max-width: 767px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .header {
+        padding-top: 32px;
+
+        &_input {
+            display: none;
+
+        }
+    }
+
+    .logo {
+        &_img {
+            font-size: 18px;
+            line-height: normal;
+        }
+    }
+
+    .top_nav_link {
+        display: none;
+    }
+
+    .top_nav_mobil {
+        display: flex;
+        gap: 32px;
+        align-items: center;
+    }
+
+    .top {
+        &_content {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        &_title {
+            text-align: center;
+            font-size: 48px;
+            line-height: normal;
+        }
+
+        &_moto {
+            text-align: center;
+            font-size: 16px;
+        }
+
+        &_link_catalog {
+            text-align: center;
+            font-size: 14px;
+        }
+    }
+
+    .for {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 16px;
+
+
+        &_heading {
+            font-size: 24px;
+        }
+
+        &_item {
+            font-size: 28px;
+            height: 374px;
+            grid-column: 1 / -1;
+
+            &_big {
+                height: 244px;
+            }
+        }
+
+
+
+    }
+
+
+
+
+
+
+
+}
