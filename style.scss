@@ -88,7 +88,7 @@ a {
 }
 
 .top_title {
-    width: 792px;
+    max-width: 792px;
     font-weight: 600;
     font-size: 64px;
     line-height: 70px;
@@ -274,6 +274,7 @@ a {
     display: flex;
     list-style-type: none;
 }
+
 .link_catalog_slash:not(:last-child)::after {
     content: '/';
     padding-left: 10px;
@@ -322,6 +323,7 @@ a {
     justify-content: space-between;
     padding-top: 24px;
     padding-bottom: 24px;
+    flex-wrap: wrap;
 }
 
 .footer_logo a {
@@ -334,14 +336,14 @@ a {
 
 .footer_content {
     display: flex;
-    gap: 142px;
+    gap: 189px;
+    flex-wrap: wrap;
 }
 
 .footer_info {
     display: flex;
-    width: 423px;
     justify-content: space-between;
-    gap: 74px;
+    gap: 129px;
 }
 
 .footer_nav {
@@ -436,4 +438,5 @@ a {
     font-family: 'Roboto', sans-serif;
 }
 
-@import 'cart'
+@import 'cart';
+@import 'tablet';
